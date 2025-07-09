@@ -1,0 +1,72 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Cache files
+.cache/
+__pypackages__/
+
+# Test coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# Installer logs
+pip-log.txt
+
+# Database files (if using SQLite or local CSV DBs you don't want committed)
+*.db
+*.sqlite3
+
+# Movie datasets (if large or proprietary — adjust as needed)
+movies.csv
+ratings.csv
+tags.csv
+links.csv
+
+# Model files (if saving trained models locally)
+*.h5
+*.pkl
+*.joblib
+
+# API keys / config files (if any)
+config.json
+secrets.json
+
+# Streamlit or Flask session files
+.streamlit/
+instance/
